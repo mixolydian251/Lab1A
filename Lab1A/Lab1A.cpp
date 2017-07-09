@@ -24,26 +24,18 @@ int main ()
     
     //Destination prompt
     cout << "Please enter your destination: ";
-    
-    //Storing Destination
     cin >> destination;
     
     //Fuel Economy prompt
     cout << "Please enter car's fuel economy in miles per gallon: ";
-    
-    //Storing Fuel Economy
     cin >> mpg;
     
     //Distance prompt
     cout << "Please enter your travel distance in miles: ";
-    
-    //Storing Distance
     cin >> miles;
     
     //gas price prompt
     cout << "Please enter the price of gas per gallon: ";
-    
-    //Storing gas price
     cin >> gasprice;
 
     //Gas money needed
@@ -55,12 +47,6 @@ int main ()
     
     // Output of money spent on gas
     cout << "Amount spent on fuel to " << destination << " : $" << gasmoney << endl;
-    
-    //Pause Prompt
-    cout << "Press 'Enter' to continue...";
-    
-    // FOR Windows Compiler I read that system("Pause") acts the same as system("read") on Xcode for MacOS..
-    system("read");
     
     //End
     return 0;
