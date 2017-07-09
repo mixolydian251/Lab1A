@@ -1,0 +1,7 @@
+
+*.plist
+Lab1.xcodeproj/project.pbxproj
+Lab1.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+Lab1.xcodeproj/xcuserdata/Jordy.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+*.xcscheme
+Lab1A.xcodeproj/project.pbxproj
